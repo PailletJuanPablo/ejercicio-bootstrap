@@ -1,0 +1,170 @@
+
+/* Establecemos familia de fuentes para títulos y párrafos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px
+}
+
+/* Estilos navbar */
+.navbar-top {
+  background: #2C3E50;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a.nav-link {
+  color: white!important;
+}
+
+.navbar-top h3 {
+  margin-bottom: 0;
+  font-weight: bold
+}
+
+.navbar-top .navbar-toggler {
+  background-color: #18BC9C;
+  color: white;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.navbar-top .nav-link {
+  text-transform: uppercase;
+  font-weight: bold
+}
+
+.navbar-top .menu-label {
+  margin-right: 3px;
+  font-size: 15px;
+}
+
+/* Estilos top section */
+
+.top-section {
+  background-color: #18BC9C;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.icons-decorator .bottom-line {
+  border-bottom: 3px solid white;
+  width: 80px;
+}
+
+.top-section ion-icon {
+  font-size: 30px
+}
+
+.top-section .bottom {
+  font-size: 20px
+}
+
+.title {
+  text-align: center;
+}
+.title ion-icon {
+  font-size: 30px
+}
+.title .bottom-line {
+  border-bottom: 3px solid #2C3E50;
+  width: 80px;
+}
+.title .bottom-line {
+  border-bottom: 3px solid #2C3E50;
+  width: 80px;
+}
+
+
+/* Estilos portfolio section */
+
+.portfolio-section img {
+  margin-top: 25px
+}
+
+.portfolio-section {
+  margin-bottom: 50px
+}
+
+/* Estilos about section */
+
+.about-section  {
+  color: white;
+  text-align: center;
+  padding: 25px
+}
+.about-section .icons-decorator .bottom-line {
+  border-bottom: 3px solid white;
+  width: 80px;
+}
+.about-section ion-icon {
+  font-size: 30px
+}
+
+/* Estilos contact section */
+
+.send-button {
+  width: 100px;
+  border-radius: 10px;
+}
+
+/* Estilos footer section */
+
+.footer-section {
+  color: white;
+}
+
+.footer-section .circled-icon {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 10px;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  font-size: 1.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos auxiliares */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center
+}
+
+img {
+  max-width: 100%
+}
+
+.bg-blue {
+  background-color: #2C3E50;
+}
+
+.bg-blue-dark {
+  background-color: #243342;
+}
+
+.bg-green {
+  background-color: #18BC9C;
+}
+
+.text-green {
+  color: #18BC9C;
+}
+
+.border-bottom-only {
+  border: 0px;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+  margin-bottom: 6%;
+  padding: 5% 15px;
+}
